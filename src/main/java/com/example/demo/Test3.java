@@ -5,9 +5,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class Test2 {
+public class Test3 {
 
-	@RequestMapping(value = "/test2", method = RequestMethod.GET)
+	@RequestMapping(value = "/test3", method = RequestMethod.GET)
 	public String test() {
 		return "test.jsp"; 
 	}
